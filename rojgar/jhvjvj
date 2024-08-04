@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Opening</title>
+    <link rel="icon" href="sbi.ico?v2">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="bank-titile">
+        <img class="logo" src="sbi-logo.png" alt="sbi-logo">
+        <h2 class="sbi">SBI</h2>
+        <h1>भारतीय स्टेट बैंक</h1>
+        <h3 class="moto">( हर भारतीय का बैंक )</h3>
+    </div>
+    <div class="buttons">
+        <h3 class="btn">&nbsp Dashboard &nbsp</h3>
+        <h3 class="btn"> &nbsp Open A/C &nbsp</h3>
+        <h3 class="btn"> &nbsp Deposit &nbsp</h3>
+        <h3 class="btn"> &nbsp Loans &nbsp</h3>
+
+    </div>
+    <h2 class="AC">Dashboard</h2>
+    
+    <div class="borrow">
+    <table>
+   
+
+        <h2 class="br">List of Borrower</h2>
+  <tr>
+    <th>Name</th>
+    <th>A/C No.</th>
+    <th>Balance</th>
+    <th >Details</th>
+  </tr>
+ <?php
+
+ for ($i=0; $i <7 ; $i++) { 
+    echo " <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Click To View</td>
+  </tr>"
+ ?>
+
+</table>
+</div>
+
+
+<div class="deposit">
+    <table>
+        <h2 class="dr" >List of depositor</h2>
+  <tr>
+    <th>Name</th>
+    <th>A/C No.</th>
+    <th>Balance</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="v">Click To View</td>
+  </tr>
+   
+</table>
+</div>
+
+
+</body></html>
